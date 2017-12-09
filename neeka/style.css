@@ -97,3 +97,28 @@ button {
     border-top: 1px solid rgba(0,0,0,.0975);
     padding: 10px;
 }
+
+/* grid testing */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px 100px 40px;
+}
+
+.gheader {
+    background: rgb(151, 205, 180);
+    grid-column: span 12;
+}
+.menu {
+    background: rgb( 253, 112, 109);
+    grid-column: span 4;
+}
+.content {
+    background: rgb(254,203,101);
+    grid-column: span 8;
+}
+.gfooter {
+    background: rgb(151, 205, 180 );
+    grid-column: span 12;
+}
